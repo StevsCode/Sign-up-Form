@@ -1,3 +1,17 @@
-.dummy {
-    font-size: 100px;
+div {
+    border: solid black 5px;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex-grow: 1;
+}
+
+.right {
+    flex-grow: 2;
+}
+

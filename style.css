@@ -44,6 +44,8 @@ a {
     font-family: 'Norse-Bold', Times, serif;
     font-size: 150px;
     background-color: hsla(0, 0%, 0%, 0.67);
+    margin-top: 250px;
+    max-height: 250px;
 }
 
 .logo {

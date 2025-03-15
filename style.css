@@ -34,6 +34,19 @@ a {
     color: inherit;
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Norse-Bold', Times, serif;
+    font-size: 150px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
 .green {
     color: green;
 }

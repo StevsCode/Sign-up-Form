@@ -21,8 +21,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: black;
+    color: white;
     text-align: center;
+    background-image: url(Media/background.jpg);
+    background-size: cover;
+    background-position: center
 }
 
 .right {
@@ -40,12 +43,15 @@ a {
     justify-content: center;
     font-family: 'Norse-Bold', Times, serif;
     font-size: 150px;
+    background-color: hsla(0, 0%, 0%, 0.67);
 }
 
 .logo {
     width: 150px;
     height: auto;
 }
+
+
 
 .green {
     color: green;

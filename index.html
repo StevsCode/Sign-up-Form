@@ -18,7 +18,27 @@
                 <p>Dummy one</p>
                 <p>Dummy two</p>
             </div>
-            <div class="middle"></div>
+            <div class="middle">
+                <form action="/submit" method="post">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" id="pwd" name="pwd" required>
+
+                    <label for="pwdConf">CONFIRM PASSWORD</label>
+                    <input type="password" id="pwdConf" name="pwdConf" required>
+                </form>
+            </div>
             <div class="low">
                 <button>Create Account</button>
                 <p></p>

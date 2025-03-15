@@ -2,6 +2,15 @@ div {
     border: solid black 5px;
 }
 
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(Media/Norse-Bold.otf) format('opentype');
+  }
+
+body {
+    font-family: 'Newsreader', Verdana, sans-serif;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -14,4 +23,3 @@ div {
 .right {
     flex-grow: 2;
 }
-

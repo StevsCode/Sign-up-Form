@@ -33,7 +33,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
 }
 
 a {
@@ -57,7 +56,12 @@ a {
     height: auto;
 }
 
-
+.up {
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 50px;
+    font-weight: 600;
+}
 
 .green {
     color: green;

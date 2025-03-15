@@ -59,8 +59,17 @@ a {
 .up {
     font-size: 25px;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 45px;
     font-weight: 600;
+    line-height: 1.3;
+    min-width: 50ch;
+}
+
+.middle {
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 45px;
 }
 
 .green {

@@ -17,9 +17,24 @@ body {
 }
 
 .left {
-    flex-grow: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
 }
 
 .right {
-    flex-grow: 2;
+    flex: 2;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.green {
+    color: green;
+}
+

@@ -11,54 +11,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <div class="banner">
-                <img class="logo" src="Media/odin-lined.png" alt="The Odin Project logo with transparent background">
-                <p>ODIN</p>
-            </div>
-            <div class="credit">Photo by <a href="https://unsplash.com/@agefis" target="_blank">Agefis</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></div>
+    <div class="left">
+        <div class="banner">
+            <img class="logo" src="Media/odin-lined.png" alt="The Odin Project logo with transparent background">
+            <p>ODIN</p>
         </div>
-        <div class="right">
-            <div class="up">
-                <p class="speech">Sign up <em>today</em> to create your secure online bank account.<br>
-                    Manage your finances, transactions and savings anytime, anywhere.<br>
+        <div class="credit">Photo by <a href="https://unsplash.com/@agefis" target="_blank">Agefis</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></div>
+    </div>
+    <div class="right">
+        <div class="up">
+            <p class="speech">Sign up <em>today</em> to create your secure online bank account.<br>
+                Manage your finances, transactions and savings anytime, anywhere.<br>
+                <br>
+                Take the first step toward a <em>smarter, more organized</em> financial future.
+            </p>
+        </div>
+        <div class="middle">
+            <legend class="title">Please fill in the details below.</legend>
+            <form action="/submit" method="post">
+                <div class="columnOne">
+                    <label for="firstName">FIRST NAME</label><br>
+                    <input type="text" id="firstName" name="firstName" required placeholder="Julius"><br>
                     <br>
-                    Take the first step toward a <em>smarter, more organized</em> financial future.
-                </p>
-            </div>
-            <div class="middle">
-                <legend class="title">Please fill in the details below.</legend>
-                <form action="/submit" method="post">
-                    <div class="columnOne">
-                        <label for="firstName">FIRST NAME</label><br>
-                        <input type="text" id="firstName" name="firstName" required placeholder="Julius"><br>
-                        <br>
-                        <label for="email">EMAIL</label><br>
-                        <input type="email" id="email" name="email" required placeholder="juliuscaesar@email.com"><br>
-                        <br>
-                        <label for="pwd">PASSWORD</label><br>
-                        <input type="password" id="pwd" name="pwd" 
-                        required placeholder="Enter your password" minlength="8"><br>
-                    </div>
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" id="email" name="email" required placeholder="juliuscaesar@email.com"><br>
+                    <br>
+                    <label for="pwd">PASSWORD</label><br>
+                    <input type="password" id="pwd" name="pwd" 
+                    required placeholder="Enter your password" minlength="8"><br>
+                </div>
 
-                    <div class="columnTwo">
-                        <label for="lastName">LAST NAME</label><br>
-                        <input type="text" id="lastName" name="lastName" required placeholder="Caesar"><br>
-                        <br>
-                        <label for="phone">PHONE NUMBER</label><br>
-                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number"><br>
-                        <br>
-                        <label for="pwdConf">CONFIRM PASSWORD</label><br>
-                        <input type="password" id="pwdConf" name="pwdConf" required placeholder="Confirm your password" 
-                        minlength="8"><br>
-                    </div>
-                </form>
-            </div>
-            <div class="down">
-                <button>Create Account</button>
-                <p class="login">Already have an account? <a class="green" href="#">Log in</a></p>
-            </div>
+                <div class="columnTwo">
+                    <label for="lastName">LAST NAME</label><br>
+                    <input type="text" id="lastName" name="lastName" required placeholder="Caesar"><br>
+                    <br>
+                    <label for="phone">PHONE NUMBER</label><br>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number"><br>
+                    <br>
+                    <label for="pwdConf">CONFIRM PASSWORD</label><br>
+                    <input type="password" id="pwdConf" name="pwdConf" required placeholder="Confirm your password" 
+                    minlength="8"><br>
+                </div>
+            </form>
+        </div>
+        <div class="down">
+            <button>Create Account</button>
+            <p class="login">Already have an account? <a class="green" href="#">Log in</a></p>
         </div>
     </div>
 </body>

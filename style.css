@@ -1,15 +1,16 @@
+@import "modern-normalize";
+
 @font-face {
     font-family: 'Norse-Bold';
     src: url(Media/Norse-Bold.otf) format('opentype');
   }
 
 body {
-    font-family: 'Newsreader', Verdana, sans-serif;
-}
-
-.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .left {

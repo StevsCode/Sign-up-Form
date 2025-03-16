@@ -32,24 +32,26 @@
                 <form action="/submit" method="post">
                     <div class="columnOne">
                         <label for="firstName">FIRST NAME</label><br>
-                        <input type="text" id="firstName" name="firstName" required><br>
+                        <input type="text" id="firstName" name="firstName" required placeholder="Julius"><br>
                         <br>
                         <label for="email">EMAIL</label><br>
-                        <input type="email" id="email" name="email" required><br>
+                        <input type="email" id="email" name="email" required placeholder="juliuscaesar@email.com"><br>
                         <br>
                         <label for="pwd">PASSWORD</label><br>
-                        <input type="password" id="pwd" name="pwd" required><br>
+                        <input type="password" id="pwd" name="pwd" 
+                        required placeholder="Enter your password" minlength="8"><br>
                     </div>
 
                     <div class="columnTwo">
                         <label for="lastName">LAST NAME</label><br>
-                        <input type="text" id="lastName" name="lastName" required><br>
+                        <input type="text" id="lastName" name="lastName" required placeholder="Caesar"><br>
                         <br>
                         <label for="phone">PHONE NUMBER</label><br>
-                        <input type="tel" id="phone" name="phone" required><br>
+                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number"><br>
                         <br>
                         <label for="pwdConf">CONFIRM PASSWORD</label><br>
-                        <input type="password" id="pwdConf" name="pwdConf" required><br>
+                        <input type="password" id="pwdConf" name="pwdConf" required placeholder="Confirm your password" 
+                        minlength="8"><br>
                     </div>
                 </form>
             </div>
